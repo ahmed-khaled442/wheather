@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wheather</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/wheather.css" />
+  </head>
+  <body>
+    <!-- nav -->
+    <!-- <nav class="navbar navbar-expand-lg nav">
+      <div class="container">
+        <div class="d-flex align-items-center">
+          <div><img src="./img/113.webp" alt="" /></div>
+          <div class="d-flex flex-column ms-3">
+            <a class="navbar-brand m-0 p-0 text-white" href="#">wheather</a>
+            <span id="goes" class="text-white">tagline goes here</span>
+          </div>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Live camerasPhotos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <i id="icon"></i>
+    main -->
+    <!-- <div class="p-5 bg-w text-">
+      <div class="container">
+        <div
+          class="d-flex align-items-center justify-content-center position-relative w-100 m-auto"
+        >
+          <input
+            id="city"
+            type="text"
+            class="w-100 rounded-5 nav border-0 text-white ps-3"
+            placeholder="Find your location"
+          />
+          <button id="finde" class="rounded-5 position-absolute border-0">
+            finde
+          </button>
+        </div>
+        <div
+          id="weather"
+          class="row mt-4 g-3 w-100 align-items-center justify-content-center"
+        >
+          <div id="box-Wheather" class="col-md-4 rounded-2 overflow-hidden p-2">
+            <div class="box-wheather-1 rounded-2 overflow-hidden">
+              <div
+                id="days"
+                class="f7 fc d-flex justify-content-center align-items-center"
+              >
+                <div class="day"></div>
+              </div>
+              <h5 id="main-city" class="fc f6 p-0 ps-2 pt-2"></h5>
+              <span
+                class="text-white p-0 fs-1 ps-1 d-block fw-bold m-0 lat ps-2"
+              >
+              </span>
+              <img
+                src="./img/116.webp "
+                class="p-0 ps-2 m-0 img-wheather"
+                alt=""
+              />
+              <p class="fb f7 p-0 ps-2 wheather"></p>
+              <div class="p-2 d-flex fc">
+                <div class="me-3">
+                  <i class="fa-solid fa-umbrella"></i>
+                  <span id="winter"></span>
+                </div>
+                <div class="me-3">
+                  <i class="fa-solid fa-wind"></i>
+                  <span id="WindSpeed"></span>
+                </div>
+                <div class="me-2">
+                  <i class="fa-solid fa-moon"></i>
+                  <span id="MOON"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div id="box-secound" class="text-white rounded-2 overflow-hidden">
+              <div id="day-2" class="text-center p-1 f7 day"></div>
+              <div>
+                <div
+                  class="d-flex flex-column justify-content-center align-items-center"
+                >
+                  <img
+                    src="./img/116.webp"
+                    class="w-25 pt-2 img-wheather"
+                    alt=""
+                  />
+                  <span class="fw-bold lat"></span>
+                  <span class="f7 lat-e">asdas</span>
+                  <p class="fb wheather"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div id="box-secound" class="text-white rounded-2 overflow-hidden">
+              <div id="day-2" class="text-center p-1 f7 day"></div>
+              <div>
+                <div
+                  class="d-flex flex-column justify-content-center align-items-center"
+                >
+                  <img
+                    src="./img/116.webp"
+                    class="w-25 pt-2 img-wheather"
+                    alt=""
+                  />
+                  <span class="fw-bold lat"></span>
+                  <span class="f7 lat-e"></span>
+                  <p class="fb wheather"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     footer 
+    <footer class="p-5 bgr">
+      <div class="d-flex justify-content-center align-items-center">
+        <input
+          type="text"
+          placeholder="enter ypur email to subscribe"
+          name=""
+          id=""
+          class="border-0 w-50 p-0 rounded-2 form-control"
+        />
+        <button class="rounded-2 bg-w border-0 text-white p-0 pe-1 ps-1">
+          subscribe
+        </button>
+      </div>
+      <div class="d-flex justify-content-center align-items-center mt-3">
+        <div class="me-3">
+          <i class="fa-brands fa-facebook"></i>
+        </div>
+        <div class="me-3">
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+        <div class="me-3">
+          <i class="fa-brands fa-github"></i>
+        </div>
+        <div>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+    </footer>  -->
+
+    <div id="box" class="bg-opacity-50">
+      <div class="layer">
+        <div class="container vh-100">
+          <div class="row vh-100 justify-content-center align-items-center">
+            <div class="col-md-6">
+              <div
+                id="BOX-RIGHT"
+                class="hight p-3 d-flex rounded-3 overflow-hidden flex-column justify-content-between position-relative"
+              >
+                <div class="z-2">
+                  <span class="text-white fw-bold fs-1 day">Tusday</span>
+                  <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-location-dot text-white mb-3"></i>
+                    <p id="city" class="ms-2 text-white">parise</p>
+                  </div>
+                </div>
+                <div class="z-2">
+                  <img src="./img/113.webp" class="mb-3 img-wheather" alt="" />
+                  <span class="d-block fw-bold fs-1 text-white Degree"
+                    >38.2oC</span
+                  >
+                  <p id="Status" class="fw-bold text-white">Sunny</p>
+                </div>
+                <div></div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div id="info" class="hight rounded-2 overflow-hidden p-3">
+                <div class="text-white d-flex justify-content-between">
+                  <p>precipitation</p>
+                  <span id="precip">0%</span>
+                </div>
+                <div class="text-white d-flex justify-content-between">
+                  <p class="text-uppercase">humidity</p>
+                  <span id="HUMIDITY">0%</span>
+                </div>
+                <div class="text-white d-flex justify-content-between">
+                  <p class="text-uppercase">wind</p>
+                  <span id="WIND">0%</span>
+                </div>
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="text-center box-wheather rounded-2 p-1">
+                      <img src="./img/113.webp" class="img-wheather" alt="" />
+                      <span class="text-white d-block day">sat</span>
+                      <span class="text-white Degree">38.2oC</span>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="text-center box-wheather rounded-2 p-1">
+                      <img src="./img/113.webp" alt="" class="img-wheather" />
+                      <span class="text-white d-block day">sat</span>
+                      <span class="text-white Degree">38.2oC</span>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="text-center box-wheather rounded-2 p-1">
+                      <img src="./img/113.webp" alt="" class="img-wheather" />
+                      <span class="text-white d-block day">sat</span>
+                      <span class="text-white Degree">38.2oC</span>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="text-center box-wheather rounded-2 p-1">
+                      <img src="./img/113.webp" alt="" class="img-wheather" />
+                      <span class="text-white d-block day">sat</span>
+                      <span class="text-white Degree">38.2oC</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="position-relative mt-2">
+                  <input
+                    type="text"
+                    class="bg-black border-0 rounded-2 w-100 text-white"
+                    name=""
+                    id="location"
+                  />
+                  <button
+                    id="changelocation"
+                    class="border-0 bg-danger text-white rounded-2 position-absolute top-0"
+                  >
+                    change loction
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/wheather.js"></script>
+  </body>
+</html>

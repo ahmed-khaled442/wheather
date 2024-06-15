@@ -1,0 +1,134 @@
+/* .nav {
+  background-color: #1e202b;
+}
+#navbarNav li a:hover {
+  border: 2px solid #1e208a;
+  border-radius: 10px;
+  padding: 2px 10px 2px 10px;
+  transition: 0.3s;
+  color: #1e208a;
+}
+#navbarNav li a {
+  font-size: 10px;
+  padding: 2px 10px 2px 10px;
+  border-radius: 10px;
+  margin-left: 5px;
+  color: white;
+}
+#navbarNav li .active {
+  border: 2px solid #1e208a;
+}
+.navbar-brand {
+  font-size: 15px;
+}
+#goes {
+  font-size: 10px;
+}
+#finde {
+  right: 0;
+  background-color: #009ad8;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+#box-wheather {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.f7 {
+  font-size: 10px;
+}
+.fc {
+  color: #bfc1c8;
+}
+.fb {
+  color: #208dd8;
+}
+.bg-w {
+  background-color: #323544;
+}
+.hight {
+  height: 10px;
+}
+#box-Wheather {
+  height: 250px;
+}
+#days {
+  background-color: #2d303d;
+}
+#box-secound {
+  height: 250px;
+  background-color: #262936;
+}
+#day-2 {
+  background-color: #222530;
+}
+.box-wheather-1 {
+  background-color: #262936;
+}
+.bgr {
+  background-color: #1e202b;
+}
+footer div i:hover {
+  background-color: black;
+  color: #208dd8;
+  padding: 10px;
+  border-radius: 10px;
+}
+footer div i {
+  color: white;
+  transition: 0.3s;
+} */
+.hight {
+  height: 350px;
+}
+#BOX-RIGHT {
+  background-image: url(../img/thunder.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: right;
+  background-size: cover;
+  object-fit: cover;
+}
+#BOX-RIGHT:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+#loction::before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 255, 255, 0.116);
+  content: "";
+  z-index: 1;
+}
+
+#info {
+  background-color: #161f2c;
+}
+#changelocation {
+  top: 0;
+  right: 0;
+}
+.box-wheather:hover {
+  background-color: rgb(184, 57, 57);
+  color: black;
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+
+#box {
+  /* background-image: url(../img/pexels-pixabay-531756.jpg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+/* #box .layer {
+  /* background-color: rgba(0, 255, 255, 0.308);
+  width: 100%;
+  height: 100%; */
